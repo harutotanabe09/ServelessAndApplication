@@ -1,0 +1,6 @@
+## Api Gatway
+genaral_event:
+  - http:
+      path: sample/test/{uid}
+      method: get
+      cors: true
